@@ -47,6 +47,12 @@ Hybrid retrieval benchmark: SQLite + `sqlite-vec` + FTS5 + Reciprocal Rank Fusio
 
 Thesis: agent memory and line-of-business retrieval are small-data problems. Vector DBs over-solve them. For workloads under ~1 M documents, a single SQLite file with `sqlite-vec` + FTS5 + RRF matches or beats managed services at 1/100th the cost and zero network round-trip.
 
+### 📊 [`plant-floor-monitoring`](https://github.com/mycman/plant-floor-monitoring)
+
+One-command observability stack — **Prometheus 2.54 + Grafana 11.2 + Alertmanager 0.27 + node-exporter + cAdvisor + a Python synthetic manufacturing metrics emitter**. Three auto-provisioned Grafana dashboards (Plant Floor Overview, Infrastructure Health, SLO) render on `make up`. 10 alert rules across infrastructure, plant-floor operations, and SLO-based availability burn. CI validates every config on every push.
+
+Built because the monitoring stack is the default language of modern infrastructure — anyone who runs Linux fleets at scale reads Prometheus and Grafana fluently. The synthetic `plant-sim` service emits realistic manufacturing metrics (units produced, defects by reason, takt time, station uptime ratio, robot cycle time) so the dashboards render with real-looking plant-floor data out of the box.
+
 ### 📘 [`Tibero 7 vs Oracle 19c — reading notes`](https://gist.github.com/mycman/379ffff0c308bb04aee0ed8f7f6eebfb)
 
 Developer-level comparison of TmaxSoft's Tibero (the Oracle-compatible RDBMS used by Hyundai Motor Group, Samsung, and the Korean public sector) against Oracle 19c. Covers SQL/PL/SQL compatibility, data type mapping edge cases, TAC vs RAC architecture, migration tooling (T-UP, Table Migrator, DB Link, tbLoader), Exadata-equivalent columnar compression, licensing model differences, and honest "where Oracle still wins" analysis.

@@ -1,6 +1,6 @@
 <div align="center">
 
-# Michael Thorpe · `mycman`
+#  mycman
 
 **IT Infrastructure Engineer** · **BS Information Technology** (Middle Georgia State University, April 2027)
 
@@ -66,7 +66,7 @@ Developer-level comparison of TmaxSoft's Tibero (the Oracle-compatible RDBMS use
 
 Fifteen years of commercial operations leadership before pivoting full-time to infrastructure engineering. Deployed $75 K+ in capital to design and build production facilities from concrete to commissioning. Scaled teams and processes 4× in two months. Led organic certification audits. Trained operators across every phase of production.
 
-That discipline — sourcing, process standardization, compliance, and owning outcomes — is what I'm applying to infrastructure work now.
+
 
 ---
 

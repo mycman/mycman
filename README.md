@@ -47,6 +47,10 @@ Hybrid retrieval benchmark: SQLite + `sqlite-vec` + FTS5 + Reciprocal Rank Fusio
 
 Thesis: agent memory and line-of-business retrieval are small-data problems. Vector DBs over-solve them. For workloads under ~1 M documents, a single SQLite file with `sqlite-vec` + FTS5 + RRF matches or beats managed services at 1/100th the cost and zero network round-trip.
 
+### 📘 [`Tibero 7 vs Oracle 19c — reading notes`](https://gist.github.com/mycman/379ffff0c308bb04aee0ed8f7f6eebfb)
+
+Developer-level comparison of TmaxSoft's Tibero (the Oracle-compatible RDBMS used by Hyundai Motor Group, Samsung, and the Korean public sector) against Oracle 19c. Covers SQL/PL/SQL compatibility, data type mapping edge cases, TAC vs RAC architecture, migration tooling (T-UP, Table Migrator, DB Link, tbLoader), Exadata-equivalent columnar compression, licensing model differences, and honest "where Oracle still wins" analysis.
+
 ---
 
 ## Focus areas
